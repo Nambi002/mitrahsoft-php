@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/style.css">
+    <title>Wufoo</title>
+</head>
+<body>   
+    <div class="container">
+        <!-- logo -->
+        <div class="header">
+            <div class="logo">
+                <img src="asset/image/wufoosymbol.png">
+            </div>
+        </div>
+    <div class="form-box">
+    <form>
+        <!-- title -->
+           <div class="content">
+              <h1>Mortgage Application</h1>
+              <hr class="dotted">
+           </div>       
+        <!-- Purpose of Mortgage or Loan -->
+        <div class="field-medium">
+           <label>Purpose of Mortgage or Loan</label>
+            <select>
+                <option>Home Loan</option>
+                <option>Home Mortgage</option>
+                <option>Refinance</option>
+                <option>Home Mortgage Refinance</option>
+                <option>Debt Consolidation Loan</option>
+                <option>Second Mortgage</option>
+                <option>Home Equity Loan</option>
+                <option>Home Improvement Loan</option>
+                <option>Bad Credit Home Mortgage</option>
+            </select>
+        </div>
+         <!-- Loan Amount -->
+        <div class="loan">
+            <label>Loan Amount</label>
+             <div class="money">
+                <span>$</span>
+                <input type="text"  id="box" >
+                <span>.</span>
+                <input type="text" class="cents"  id="box" >
+             </div>
+             <div class="money-label">
+                <span>Dollars</span>
+                <span>Cents</span>
+             </div>
+        </div>
+        <!-- Type of Property -->
+        <div class="field-medium">
+          <label>Type of Property</label>
+            <select>
+                <option>House</option>
+                <option>Condo</option>
+                <option>Land</option>
+            </select>
+        </div>
+        <!-- Estimated Price or Value of Property -->
+         <div class="loan">
+            <label>Estimated Price or Value of Property</label>           
+             <div class="money">
+                <span>$</span>
+                <input type="text"  id="box">
+                <span>.</span>
+                <input type="text" class="cents"  id="box">
+             </div>
+             <div class="money-label">
+                <span>Dollars</span>
+                <span>Cents</span>
+             </div>
+        </div>
+        <!-- Location of Property -->
+        <div class="location">
+          <label>Location of Property</label>
+            <div class="row">
+                <div class="col-full">
+                    <input type="text"  id="box">
+                      <p class="sub-label">Street Address</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-full">
+                    <input type="text"  id="box">
+                     <p class="sub-label">Address Line 2</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text"  id="box">
+                    <p class="sub-label">City</p>
+                </div>
+                <div class="col">
+                    <input type="text"  id="box">
+                    <p class="sub-label">State / Province / Region</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text"  id="box">
+                    <p class="sub-label">Postal / Zip Code</p>
+                </div>
+                <div class="col">
+                    <select >
+                        <option></option>
+                         <option >United States</option>
+                         <option >United Kingdom</option>
+                         <option >Australia</option>
+                         <option >India</option>
+                         <option >---------</option>
+                    </select>
+                    <p class="sub-label">Country</p>
+                </div>
+            </div>
+        </div>
+         <!-- Down Payment Percentage -->
+        <div class="field-medium">
+          <label>Down Payment Percentage</label>
+            <select>
+                <option></option>
+                <option>Not Applicable</option>
+                <option>0% - 5%</option>
+                <option>6% - 10%</option>
+            </select>
+        </div>
+         <!-- Current Mortgage Company -->
+        <div class="field-medium">
+           <label>Current Mortgage Company</label>
+            <select>
+                <option></option>
+                <option>Company One</option>
+                <option>Company Two</option>
+            </select>
+        </div>
+         <!-- Would you like a Referral to a Real Estate Agent? -->
+        <div class="field-medium">
+          <label>Would you like a Referral to a Real Estate Agent?</label>
+            <select >
+                <option></option>
+                <option>Yes, I'm buying a home</option>
+                <option>Yes, I'm selling and buying a home</option>
+                <option>Yes, I'm selling </option>
+                <option>No</option>
+            </select>
+        </div>
+        <!-- age -->
+         <div class="field-age">
+            <label>Age</label>
+            <input type="text"  id="box">
+         </div>
+         <!-- occupation -->
+         <div class="field-occupation">
+            <label>Occupation</label>
+            <input type="text"  id="box">
+         </div>
+         <!-- How long have you been at your current job? -->
+            <div class="field-medium">
+            <label>How long have you been at your current job?</label>
+            <select>
+                <option>First Choice</option>
+                <option>Second Choice</option>
+                <option>Third Choice</option>
+            </select>
+        </div>
+         <!-- Household Income -->
+        <div class="loan">
+            <label>Household Income</label>
+             <div class="money">
+                <span>$</span>
+                <input type="text"  id="box">
+                <span>.</span>
+                <input type="text" class="cents"  id="box">
+             </div>
+             <div class="money-label">
+                <span>Dollars</span>
+                <span>Cents</span>
+             </div>
+        </div>
+        <!-- Please describe your credit rating. -->
+        <div class="field-medium">
+            <label>Please describe your credit rating.</label>
+            <select>
+                <option>First Choice</option>
+                <option>Second Choice</option>
+                <option>Third Choice</option>
+            </select>
+        </div>
+        <hr  class="dotted">
+        <h3>Contact Information</h3>
+        <!-- name -->
+        <div class="field-name">           
+            <label>Name</label>
+            <div class="overall-name">
+              <div class="name-title">
+                <input type="text"  id="box">
+                 <span class="col-title">Title</span>
+              </div>
+              <div class="name-first">
+                <input type="text"  id="box">
+                <span class="col-first">First</span>
+              </div>
+              <div class="name-last">
+                <input type="text"  id="box">
+                <span class="col-last">Last</span>
+              </div>
+              <div class="name-suffix">
+                <input type="text"  id="box">
+                 <span class="col-suffix">Suffix</span>
+              </div>
+            </div>           
+        </div>
+      <!-- Address -->
+        <div class="location">
+            <label>Address</label>
+            <div class="row">
+                <div class="col-full">
+                        <input type="text"   id="box">
+                         <p class="sub-label">Street Address</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-full">
+                         <input type="text"  id="box">
+                          <p class="sub-label">Address Line 2</p>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text"  id="box">
+                    <p class="sub-label">City</p>
+                </div>
+                <div class="col">
+                    <input type="text"  id="box">
+                    <p class="sub-label">State / Province / Region</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text"  id="box">
+                    <p class="sub-label">Postal / Zip Code</p>
+                </div>
+                <div class="col">
+                    <select >
+                        <option></option>
+                         <option >United States</option>
+                         <option >Australia</option>
+                         <option >New Zealand</option>
+                         <option >India</option>                       
+                    </select>
+                    <p class="sub-label">Country</p>
+                </div>
+            </div>
+         </div>    
+        <!-- Primary Phone -->
+        <div class="phone">
+            <label>Primary Phone</label>
+            <div class="row1">         
+                    <input type="text"  id="box">
+                <span class="main-span">-</span>              
+                <input type="text"  id="box" >
+                <span>-</span>
+                <input type="text"  id="box">                           
+            </div>
+            <div class="phone-label">
+                <span class="phone-span-1">###</span>
+                <span class="phone-span-2">###</span>
+                <span class="phone-span-3">####</span>
+            </div>
+        </div>
+         <!-- Alternate Phone -->
+        <div class="phone">
+            <label>Alternate Phone</label>
+            <div class="row1">
+                <input type="text"  id="box">
+                <span>-</span>
+                <input type="text"  id="box" >
+                <span>-</span>
+                <input type="text"  id="box">
+            </div>
+            <div class="phone-label">
+                <span class="phone-span-1">###</span>
+                <span class="phone-span-2">###</span>
+                <span class="phone-span-3">####</span>
+            </div>
+        </div>
+        <!-- Email Address-->
+        <div class="field-email">
+            <label>Email Address</label>
+            <input type="text"  id="box">
+        </div>
+        <div class="field-submit">
+           <button class="button">Submit</button>
+        </div>
+    </form>
+        <p class="field-text">This site is protected by reCAPTCHA Enterprise and the Google <a href="" class="field-link">Privacy Policy</a> and <a href="" class="field-link">Terms of Service</a> apply.</p>
+    </div>
+ </div>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <p class="footer-powered">Powered By</p>
+        <img src="asset/image/footerlogo.png" alt="" class="footer-wufoo-logo">
+        <p class="footer-SurveyMonkey">by SurveyMonkey</p>
+        <p class="footer-text">See how easy it is to <a href="" class="footer-link">create a form</a></p>
+    </div>
+</footer>
+</html>

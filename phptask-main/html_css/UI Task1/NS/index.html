@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Consent Form </title>
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    <div class="content">
+        <!-- header -->
+        <div class="title">
+            <div class="logo" >
+                <img src="asset/image/header.png" alt="img">
+            </div>
+            <div class="head-title">
+                <div>
+                   <h2 class="Health-city">HEALTH CITY</h2>
+                </div>
+                <div >
+                    <h1 class="hospital">HOSPITAL</h1>
+                </div>
+            </div>
+        </div>
+            <h2 class="form-title">Vaccination Consent Form</h2>
+            <h3 class="section-title">Patient Information</h3>         
+        <!-- form -->
+        <form>
+            <!-- full legal name -->
+             <div class="row">
+                <div class="col-full">
+                    <label for="fname">Full Legal Name*</label>
+                    <input type="text" id="fname" class="fields" placeholder="">
+                </div>
+             </div>
+             <!-- dob and medn -->
+            <div class="row">
+                <div class="col">
+                    <label for="dob" >Date of Birth*   </label>
+                    <div class="date-wrap">                    
+                        <input type="text" class="fields" id="dob" placeholder="     DD    /     MM    /    YYYY"  >                          
+                        <img src="asset/image/dateicons.png"  class="calc-icons" alt="icons"> 
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="mdn" >Medical number (if Known)</label>
+                    <input type="text" class="fields" id="mdn" placeholder="">
+                </div>
+            </div>
+              <!-- Phone Number and Email Address -->
+               <div class="row">
+                <div class="col">
+                    <label for="phn">Phone Number* </label>
+                        <input type="text" class="fields" id="phn" placeholder="">      
+                </div>
+                <div class="col">
+                    <label for="emd">Email Address*</label>
+                    <input type="text" class="fields" id="emd" placeholder="">
+                </div>
+              </div>
+              <!-- Address -->
+               <div class="row">
+               <label class="adress-label">Address*</label>
+               </div>
+               <!-- Street and City/Suburb -->
+                <div class="row-address">
+                <div class="col">
+                    <label for=" Street"> Street* </label>
+                        <input type="text" class="fields" id=" Street" placeholder="">      
+                </div>
+                <div class="col">
+                    <label for="City/Suburb">City/Suburb</label>
+                    <input type="text" class="fields" id="City/Suburb" placeholder="">
+                </div>
+              </div>
+              <!-- State and Zip/Post Code -->
+               <div class="row-address">
+                <div class="col">
+                    <label for="State"> State* </label>
+                        <input type="text" class="fields" id="State" placeholder="">      
+                </div>
+                <div class="col">
+                    <label for=" Zip/Post Code" > Zip/Post Code*</label>
+                    <input type="text" class="fields" id=" Zip/Post Code" placeholder="">
+                </div>
+              </div>
+              <!-- Country -->
+                <div class="row-address">
+                <div class="col-full">
+                    <label for="Country" >Country*</label>
+                    <input type="text" id="Country" class="fields" placeholder="">
+                    </div>
+                </div>
+             </div>
+        </form>
+    </div>
+</body>
+</html>

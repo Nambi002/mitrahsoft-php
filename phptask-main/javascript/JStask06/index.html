@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Checkbox Control</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="asset/scripts.js"></script>
+    <!-- <h2>Checkbox Operations</h2> -->
+
+    <div class="card m-5" style="width: 30%;">
+        <form id="checkbox" class="card">
+            <!-- <div class="card w-75 mb-3"> -->
+            <div class="card-body m-5">
+                <h5>Checkbox Operations</h5>
+
+                <div class="form-check mb-2">
+                    <input type="checkbox" class="form-check-input cb" id="checkbox-one">
+                    <label class="form-check-label" for="checkDefault">Option 1</label>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input type="checkbox" class="form-check-input cb" id="checkbox-two"> <label
+                        class="form-check-label">Option 2</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input type="checkbox" class="form-check-input cb" id="checkbox-three"> <label
+                        class="form-check-label">Option 3</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input type="checkbox" class="form-check-input cb" id="checkbox-four"> <label
+                        class="form-check-label">Option 4</label>
+                </div>
+                <div class="form-check mb-2">
+                    <input type="checkbox" class="form-check-input cb" id="checkbox-five"> <label
+                        class="form-check-label">Option 5</label>
+                </div>
+
+            </div>
+    </div>
+    <!-- </div> -->
+
+    <div class="card-body m-5">
+        <button type="button" onclick="checkAll()" id="check-all" class="btn btn-success mb-6">Check All</button>
+        <button type="button" onclick="unCheckAll()" id="uncheck-all" class="btn btn-secondary ">UnCheck All</button>
+        <button type="button" onclick="toggleCheck()" id="uncheck-selected" class="btn btn-success">Uncheck Selected &
+            Check Unselected</button>
+    </div>
+    </div>
+    </form>
+</body>
+
+</html>

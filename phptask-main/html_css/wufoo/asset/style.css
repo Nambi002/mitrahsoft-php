@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    background-color:#669900 ;
+}
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 23px;
+    margin-bottom: 1%; 
+    background-color: #ffffff;
+}
+.form-box{
+     padding: 13px 12px 15px 12px;
+}
+.header{
+    background-color: #99cc00;
+    padding: 1%;
+}
+h1{
+    margin: 0;
+    font-size: 20px;
+    padding: 15px 0 20px 3px;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+hr.dotted{
+    border: none;
+    border-bottom: 1px dotted grey;
+    margin: 10px 0 6px;
+}
+.field{
+    padding: 10px 10px 3px 10px;
+}
+.field-medium{
+      padding: 10px ;
+}
+label{
+    font-size: 12px;
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 5px;
+    color:#44444a;  
+}
+.field-medium select{
+    width: 49%;
+}
+.row{
+    display: flex;
+    gap: 8px;
+}
+.col{
+    flex: 1;
+}
+.col-full{
+    flex: 1 1 100%;
+}
+.sub-label{
+    font-size: 11px;
+    font-weight:lighter;
+    display: block;
+    margin-left: auto;
+    color: #444444;
+}
+.money{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 25%;
+    color: #444444;
+    font-size: 16px;
+}
+.cents{
+    width: 21%;
+}
+.money-label{
+    display: flex;
+    gap: 80px;
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    padding-top: 1%;
+    color: #444444;
+}
+select,input{ 
+    width: 100%;
+    padding: 1px 1px;
+    border: 1px solid black;
+    border-top: 2px solid #8d8d8d;
+    font-size: 13px;
+    box-shadow: inset 0 1 2 rgba(0,0,0,0.8);
+}
+.field-name-label{   
+    gap: 15px;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.overall-name{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+.name-title{
+    width: 3%;   
+}
+.name-first{
+    width: 10%;
+}
+.name-last{
+    width: 15%;
+}
+.name-suffix{
+    width: 4%;   
+}
+.col-title{
+    font-size: 12px;
+}
+.col-first{
+    font-size: 12px;
+    margin-left: 20px;   
+}
+.col-last{
+    font-size: 12px;
+    margin-left: 30px;
+}
+.col-suffix{
+    font-size: 12px;
+}
+.phone-label{
+    font-size: 10px; 
+    padding: 1px;  
+}
+.phone-span-1{
+    margin-left: 10px;
+}
+.phone-span-2{
+    margin-left: 30px;
+}
+.phone-span-3{
+    margin-left: 40px;
+}
+.button{
+    margin-top: 3%;
+}
+h3{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.footer-content{
+    margin-top: 0;
+    color: #555;
+    line-height: 5px;
+}
+.footer-powered{
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+.footer-SurveyMonkey{
+    font-size: 10px;
+    margin-top: 1px;
+}
+.footer-text{
+    font-size: 12px;
+    margin-top: 0%;
+}
+.footer-link{
+    font-size: 12px;
+    color: #0000ee;
+}
+.field-text{
+    font-size:14px ;
+    color: #7e7e7e;
+    padding: 10px;
+}
+.field-link{
+    color: #007faa;
+}
+.field input,.field select{
+    border: 1px solid #aaa;
+}
+.field-medium:focus-within{
+    background-color: #fff7c0;
+}
+.field input,.field select:focus{
+    outline: none;
+}
+.field-name:focus-within{
+    background-color: #fff7c0;
+}
+.field-email:focus-within{
+      background-color: #fff7c0;
+}
+.field-age:focus-within{
+      background-color: #fff7c0;
+}
+.field-occupation:focus-within{
+      background-color: #fff7c0;
+}
+#box{
+     border: 1px solid  #dddddd;
+     border-top: 2px solid #8d8d8d;
+     font-size: 20px;
+     box-shadow: inset 0 1 2 rgba(0,0,0,0.8);    
+}
+.button{
+    padding: 1px 8px 1px 8px;
+    font-size: 16px;
+}
+.field-submit{
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 5%;
+}
+.box-size{
+    height: 50%;
+}
+.row1{
+    display: flex;
+    gap: 8px;
+    width: 25%;
+}
+.field-email{
+    padding: 10px ; 
+}
+.field-name{
+     padding: 10px 10px 1px 10px; 
+}
+.field-age{
+     padding:10px ;
+     width: 28%;
+}
+.field-occupation{
+     padding: 10px;
+     width: 51%;
+}
+ .loan{
+    padding: 10px;
+ }
+ .loan:focus-within{
+     background-color: #fff7c0;
+ }
+ .location{
+    padding: 10px;
+ }
+ .location:focus-within{
+      background-color: #fff7c0;
+ }
+ .phone:focus-within{
+    background-color: #fff7c0;
+ }
+.phone{
+    padding: 10px;
+}
+

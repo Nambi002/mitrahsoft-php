@@ -1,0 +1,34 @@
+<?php
+include 'config.php';
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+if(!isset($_GET['id'])){
+    die("No ID");
+}
+
+$id = $_GET['id'];
+
+$q = mysqli_query($conn, "SELECT File_name FROM files WHERE id='$id'");
+$row = mysqli_fetch_assoc($q);
+
+if(!$row){
+    die("Record not found");
+}
+
+$filename = $row['File_name'];
+$filepath = __DIR__ . "/uploads/" . $filename;   
+
+if(!file_exists($filepath)){
+    die("File missing: " . $filename);
+}
+
+if(ob_get_level()) ob_end_clean();
+
+header("Content-Type: application/octet-stream");
+header("Content-Disposition: attachment; filename=\"" . basename($filepath) . "\"");
+header("Content-Length: " . filesize($filepath));
+readfile($filepath);
+exit;
+?>
